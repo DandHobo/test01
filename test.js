@@ -1,1 +1,1 @@
-alert(document.referrer)
+if (!document.referrer) {alert(document.referrer)}
